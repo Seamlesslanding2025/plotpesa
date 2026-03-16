@@ -10,9 +10,10 @@ import { Button } from '@/components/ui/button'
 import { Select } from '@/components/ui/select-native'
 import { Search, Loader2, Map as MapIcon, Grid3x3, SlidersHorizontal, AlertCircle } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
+import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
 
-export default function PlotsPage() {
+function PlotsContent() {
     const searchParams = useSearchParams()
     const supabase = createClient()
     const [plots, setPlots] = useState<Database['public']['Tables']['plots']['Row'][]>([])
@@ -347,5 +348,20 @@ export default function PlotsPage() {
                 )}
             </div>
         </div>
+    )
+}
+
+export default function PlotsPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-pesa-subtle flex items-center justify-center">
+                <div className="flex flex-col items-center gap-4">
+                    <Loader2 className="h-12 w-12 animate-spin text-pesa-green opacity-20" />
+                    <p className="font-black text-pesa-green uppercase tracking-widest text-[10px] opacity-50">Loading Marketplace...</p>
+                </div>
+            </div>
+        }>
+            <PlotsContent />
+        </Suspense>
     )
 }

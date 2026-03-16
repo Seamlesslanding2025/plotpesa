@@ -5,13 +5,14 @@ import { Calendar, ArrowLeft, Share2, Tag } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 
-export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params
     const supabase = await createClient()
 
     const { data: post, error } = await supabase
         .from('blog_posts')
         .select('*')
-        .eq('slug', params.slug)
+        .eq('slug', slug)
         .single() as any
 
     if (!post) {
