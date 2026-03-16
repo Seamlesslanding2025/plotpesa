@@ -1,0 +1,24 @@
+app/dashboard/admin/page.tsx(34,53): error TS2339: Property 'status' does not exist on type 'never'.
+app/dashboard/admin/page.tsx(35,55): error TS2339: Property 'status' does not exist on type 'never'.
+app/dashboard/admin/page.tsx(36,51): error TS2339: Property 'status' does not exist on type 'never'.
+app/dashboard/admin/verification/page.tsx(48,25): error TS2345: Argument of type '{ status: string; }' is not assignable to parameter of type 'never'.
+app/dashboard/admin/verification/page.tsx(68,25): error TS2345: Argument of type '{ status: string; }' is not assignable to parameter of type 'never'.
+app/dashboard/buyer/page.tsx(17,61): error TS2339: Property 'county' does not exist on type 'never'.
+app/dashboard/buyer/wanted/page.tsx(46,21): error TS2345: Argument of type '{ is_active: boolean; }' is not assignable to parameter of type 'never'.
+app/dashboard/seller/listings/page.tsx(143,65): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+app/plots/[id]/page.tsx(131,50): error TS2322: Type 'Json' is not assignable to type 'string | Blob | undefined'.
+  Type 'null' is not assignable to type 'string | Blob | undefined'.
+app/plots/page.tsx(186,26): error TS2304: Cannot find name 'Link'.
+app/plots/page.tsx(188,27): error TS2304: Cannot find name 'Link'.
+components/create-listing-form.tsx(152,74): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "plots", never, "POST">', gave the following error.
+    Argument of type '{ user_id: string; title: string; description: string; plot_type: any; county: string; location_details: string; size_acres: number | null; price_kes: number; contact_phone: string; latitude: number; longitude: number; images: string[] | null; status: string; listing_type: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "plots", never, "POST">', gave the following error.
+    Argument of type '{ user_id: string; title: string; description: string; plot_type: any; county: string; location_details: string; size_acres: number | null; price_kes: number; contact_phone: string; latitude: number; longitude: number; images: string[] | null; status: string; listing_type: string; }' is not assignable to parameter of type 'never[]'.
+      Type '{ user_id: string; title: string; description: string; plot_type: any; county: string; location_details: string; size_acres: number | null; price_kes: number; contact_phone: string; latitude: number; longitude: number; images: string[] | null; status: string; listing_type: string; }' is missing the following properties from type 'never[]': length, pop, push, concat, and 35 more.
+components/create-listing-form.tsx(356,26): error TS2304: Cannot find name 'Phone'.
+components/create-wanted-listing-form.tsx(72,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "wanted_listings", never, "POST">', gave the following error.
+    Argument of type '{ user_id: string; title: string; counties: string[]; min_price_kes: number | null; max_price_kes: number | null; min_size_acres: number | null; max_size_acres: number | null; plot_type: string | null; description: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "wanted_listings", never, "POST">', gave the following error.
+    Object literal may only specify known properties, and 'user_id' does not exist in type 'never[]'.

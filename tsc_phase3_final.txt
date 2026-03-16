@@ -1,0 +1,3 @@
+app/dashboard/notifications/page.tsx(48,21): error TS2345: Argument of type '{ is_read: boolean; }' is not assignable to parameter of type 'never'.
+app/dashboard/seller/inquiries/page.tsx(35,21): error TS2345: Argument of type 'Partial<Inquiry>' is not assignable to parameter of type 'never'.
+components/notification-bell.tsx(70,21): error TS2345: Argument of type '{ is_read: boolean; }' is not assignable to parameter of type 'never'.

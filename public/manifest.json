@@ -1,0 +1,22 @@
+{
+    "name": "PlotPesa",
+    "short_name": "PlotPesa",
+    "description": "Kenya's Trusted Digital Land Marketplace. Transparent, mapped, and verified properties.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#014421",
+    "theme_color": "#014421",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

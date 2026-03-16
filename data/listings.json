@@ -1,0 +1,148 @@
+[
+  {
+    "listing_id": "PROP-SALE-043-125",
+    "title": "1/8 Acre Freehold Residential Plot in Hindi, Lamu West (LAPSSET Corridor)",
+    "price_kes": 400000,
+    "currency": "KES",
+    "county": "Lamu",
+    "sub_county": "Lamu West",
+    "ward": "Hindi",
+    "plot_type": "residential",
+    "land_use": "multi-use",
+    "size_acres": 0.125,
+    "tenure": "freehold",
+    "title_deed_status": "ready",
+    "survey_status": "complete",
+    "topography": "well-drained",
+    "road_access": "murram road",
+    "distance_to_town_km": 6.8,
+    "utilities": {
+      "electricity": "KPLC power on site",
+      "water": "Water lines available"
+    },
+    "infrastructure_status": "complete",
+    "location_details": "Hindi Ward, Lamu West Sub-County, within the LAPSSET development corridor, near Hindi and Mokowe towns",
+    "description": "Strategic freehold land parcel located in Hindi, Lamu West, within the LAPSSET development corridor. This 1/8 acre residential plot is ideal for land banking, residential development, or holiday homes. The land is well-drained, serviced by existing KPLC power infrastructure and water lines, and accessible via an established murram road network. Proximity to the new Lamu Port, Indian Ocean coastline, and key administrative centers positions this property for strong capital appreciation.",
+    "investment_highlights": [
+      "Located within the LAPSSET Corridor",
+      "Near the new Lamu Port and infrastructure projects",
+      "Rapidly appreciating area",
+      "Coastal investment opportunity",
+      "Development-ready land"
+    ],
+    "available_plots": 29,
+    "payment_terms": "installments",
+    "financing": "SACCO financing available",
+    "listing_type": "sale",
+    "status": "available",
+    "ideal_for": [
+      "Real estate developers",
+      "Investment groups",
+      "SACCOs",
+      "Land banking investors",
+      "Holiday home developers"
+    ],
+    "agent": {
+      "name": "Ken Ochieng",
+      "phone": "+254758825009",
+      "email": "seamlesslanding@gmail.com"
+    },
+    "reference_code": "PROP-SALE-043"
+  },
+  {
+    "listing_id": "PROP-SALE-043-250",
+    "title": "1/4 Acre Freehold Residential Plot in Hindi, Lamu West (LAPSSET Corridor)",
+    "price_kes": 750000,
+    "currency": "KES",
+    "county": "Lamu",
+    "sub_county": "Lamu West",
+    "ward": "Hindi",
+    "plot_type": "residential",
+    "land_use": "multi-use",
+    "size_acres": 0.25,
+    "tenure": "freehold",
+    "title_deed_status": "ready",
+    "survey_status": "complete",
+    "topography": "well-drained",
+    "road_access": "murram road",
+    "distance_to_town_km": 6.8,
+    "utilities": {
+      "electricity": "KPLC power on site",
+      "water": "Water lines available"
+    },
+    "infrastructure_status": "complete",
+    "location_details": "Hindi Ward, Lamu West Sub-County, near Hindi administrative center and Mokowe",
+    "description": "Prime 1/4 acre freehold residential plot located in Hindi, Lamu West, within the high-growth LAPSSET corridor. The land features ready title deeds, established power and water infrastructure, and murram road access. Its coastal proximity and closeness to the new Lamu Port make it ideal for residential development, holiday homes, or long-term investment.",
+    "investment_highlights": [
+      "LAPSSET Corridor location",
+      "Near Indian Ocean coastline",
+      "High capital appreciation potential",
+      "Infrastructure-ready"
+    ],
+    "available_plots": 20,
+    "payment_terms": "installments",
+    "financing": "SACCO financing available",
+    "listing_type": "sale",
+    "status": "available",
+    "ideal_for": [
+      "Private investors",
+      "Developers",
+      "Institutional investors",
+      "Coastal property developers"
+    ],
+    "agent": {
+      "name": "Ken Ochieng",
+      "phone": "+254758825009",
+      "email": "seamlesslanding@gmail.com"
+    },
+    "reference_code": "PROP-SALE-043"
+  },
+  {
+    "listing_id": "PROP-SALE-043-500",
+    "title": "1/2 Acre Freehold Residential Plot in Hindi, Lamu West (LAPSSET Corridor)",
+    "price_kes": 1300000,
+    "currency": "KES",
+    "county": "Lamu",
+    "sub_county": "Lamu West",
+    "ward": "Hindi",
+    "plot_type": "residential",
+    "land_use": "multi-use",
+    "size_acres": 0.5,
+    "tenure": "freehold",
+    "title_deed_status": "ready",
+    "survey_status": "complete",
+    "topography": "well-drained",
+    "road_access": "murram road",
+    "distance_to_town_km": 6.8,
+    "utilities": {
+      "electricity": "KPLC power on site",
+      "water": "Water lines available"
+    },
+    "infrastructure_status": "complete",
+    "location_details": "Hindi Ward, Lamu West Sub-County, LAPSSET development zone near Lamu Port",
+    "description": "Spacious 1/2 acre freehold plot in Hindi, Lamu West, positioned within the LAPSSET corridor. Suitable for high-end residential development, holiday homes, or institutional investment. The property has ready title deeds, reliable power and water infrastructure, good road access, and strong long-term appreciation prospects due to nearby port and logistics developments.",
+    "investment_highlights": [
+      "Large plot size",
+      "Strategic coastal location",
+      "Near Lamu Port",
+      "Ideal for premium developments"
+    ],
+    "available_plots": 8,
+    "payment_terms": "installments",
+    "financing": "SACCO financing available",
+    "listing_type": "sale",
+    "status": "available",
+    "ideal_for": [
+      "Developers",
+      "Investment funds",
+      "Institutional buyers",
+      "Luxury holiday home investors"
+    ],
+    "agent": {
+      "name": "Ken Ochieng",
+      "phone": "+254758825009",
+      "email": "seamlesslanding@gmail.com"
+    },
+    "reference_code": "PROP-SALE-043"
+  }
+]

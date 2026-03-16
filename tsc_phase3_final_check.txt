@@ -1,0 +1,2 @@
+app/plots/[id]/page.tsx(50,13): error TS2349: This expression is not callable.
+  Type 'Promise<void>' has no call signatures.

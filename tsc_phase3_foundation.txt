@@ -1,0 +1,6 @@
+app/dashboard/notifications/page.tsx(48,21): error TS2345: Argument of type '{ is_read: boolean; }' is not assignable to parameter of type 'never'.
+app/dashboard/seller/inquiries/page.tsx(140,70): error TS2304: Cannot find name 'updateInquiry'.
+app/dashboard/seller/inquiries/page.tsx(171,64): error TS2304: Cannot find name 'updateInquiry'.
+app/sitemap.ts(51,39): error TS2339: Property 'id' does not exist on type 'never'.
+app/sitemap.ts(52,37): error TS2339: Property 'updated_at' does not exist on type 'never'.
+components/notification-bell.tsx(70,21): error TS2345: Argument of type '{ is_read: boolean; }' is not assignable to parameter of type 'never'.
